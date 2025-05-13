@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <form action="response.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tr>
+                    <td><label for="">First Name</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="">Last Name</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="">Date of Birth</label></td>
+                    <td><input type="date" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td><input type="radio" name="Gender" id="" value="M"> Male
+                        <input type="radio" name="Gender" id="" value="F"> Female
+                        <input type="radio" name="Gender" id="" value="O"> Other
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td><label for="">Profile Picture</label></td>
+                    <td><input type="file"></td>
+                </tr>
+    
+            </table>
+    
+        </fieldset>
+
+        
+        <fieldset> 
+            <legend>Contact Information</legend>
+            <table>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="email" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Phone Number</label></td>
+                <td><input type="tel" required placeholder="10-digit number"></td> <br>
+            </tr>
+
+            <tr>
+                <td><label for="">Address</label></td>
+                <td><textarea name="address" id="" rows="3" cols="15"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Country</label></td>
+                <td><select name="" id="">
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="Burkina Faso">Burkina Faso</option>
+                </select> <br></td>
+            </tr>
+        </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education Background</legend>
+            <table>
+                <tr>
+                    <td><label for="">Highest Qualification</label></td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">Graduate</option>
+                            <option value="">Undergraduate</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Specialisation</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Years of Graduate</label></td>
+                    <td><input type="text"></td>
+                </tr>
+
+
+            </table>
+        </fieldset>
+
+       <fieldset>
+        <legend>Job Preference</legend>
+        <table>
+            <tr>
+                <td><label for="">Preferred Role</label></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Expected Salary</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Preferred Location</label></td>
+                <td><input type="radio" value="Bangalore" name="Country" id=""> Bangalore
+                    <input type="radio" value="Delhi" name="Country" id=""> Delhi
+                    <input type="radio" value="Remote" name="Country" id=""> Remote
+                    <input type="radio" value="Pune" name="Country" id=""> Pune
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Wliing to Relocate</label></td>
+                <td><input type="checkbox"></td>
+            </tr>
+        </table>
+       </fieldset>
+
+
+       <fieldset>
+        <legend>Create Account</legend>
+        <table>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" name="" id="" required min="6" placeholder="Min 6 characters"></td>
+            </tr>
+            <tr>
+                <td> <label for="Confrim Password"></label></td>
+                <td><input type="password"></td>
+            </tr>
+        </table>
+       </fieldset>
+
+       <fieldset>
+        <legend>Resume</legend>
+        <table>
+            <tr>
+                <td><label for="">Upload Resume(PDF only)</label></td>
+                <td><input type="file" required></td>
+            </tr>
+        </table>
+       </fieldset>
+
+       <fieldset>
+        <legend>Agreement</legend>
+       <table>
+        <tr>
+            <td><input type="checkbox"> I agree to the terms and conditions</td>
+        </tr>  
+        <tr>
+            <td><button>Submit Application</button>
+            <button>Reset Form</button></td>
+        </tr>
+        
+       </table>
+        
+       
+    </fieldset>
+
+
+
+
+
+
+        
+        
+
+        
+
+        
+
+        
+    </form>
+</body>
+</html>
